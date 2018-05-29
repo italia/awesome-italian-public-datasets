@@ -1,5 +1,5 @@
 # AwesomeItalianPublicData
-A selection of interesting Open datasets from the Italian Public Administration for data science projects and Civic Data Use Cases.
+Una selezione di alcuni dataset per progetti di data analysis e data science forniti dalla Pubblica Amministrazione in formato aperto e di casi d'uso da parte della PA stessa e della comunità civic hacking italiana.
 
 
 ## Table of contents:
@@ -13,7 +13,7 @@ A selection of interesting Open datasets from the Italian Public Administration 
 
 ## Italian Public Administration dataset <a name="PAdataset"></a>
 
-* [Elenco Basi di Dati Chiave](http://elenco-basi-di-dati-chiave.readthedocs.io/it/latest/):Questo documento rappresenta il risultato dell’azione «Individuazione delle basi di dati chiave» definita nell’ambito degli Open Data del Piano Triennale per l’Informatica nella PA (2017-2019)
+* [Elenco Basi di Dati Chiave](http://elenco-basi-di-dati-chiave.readthedocs.io/it/latest/): Questo documento rappresenta il risultato dell’azione «Individuazione delle basi di dati chiave» definita nell’ambito degli Open Data del Piano Triennale per l’Informatica nella PA (2017-2019)
 
 ### Economia e finanze
 
@@ -21,7 +21,7 @@ A selection of interesting Open datasets from the Italian Public Administration 
 
 * [OPENBDAP](https://bdap-opendata.mef.gov.it/catalog): Il portale della RGS che mette a disposizione i dati della Finanza Pubblica.
 
-* [OPENCOESIONE](https://opencoesione.gov.it): Dati collegati alle politiche di coesione.
+* [OPENCOESIONE](https://opencoesione.gov.it): Dati collegati alle politiche di coesione. Progetto menzionato nella sezione dedicata.
 
 * [Banca dati Servizio Contratti Pubblici - SCP - Ministero trasporti](http://dati.mit.gov.it/catalog/dataset/scp): Il Dataset contiene gli avvisi, i bandi e gli esiti di gara in formato aperto raccolti dalla Banca dati SCP - Servizio Contratti Pubblici gestita dalla Direzione Generale per la regolazione e i contratti pubblici del Ministero delle Infrastrutture e Trasporti. 
 
@@ -30,6 +30,12 @@ A selection of interesting Open datasets from the Italian Public Administration 
 * [MISE: Aiuti di Stato](http://www.sviluppoeconomico.gov.it/index.php/it/open-data/elenco-dataset)-
 
 * [Cantieri Scuole](http://www.cantieriscuole.it/open_data.aspx): Fonti dei principali dataset impiegati per la costruzione ed il funzionamento dell'applicazione CantieriScuole.it di #italiasicura.scuole
+
+### Giustizia, sistema giuridico e sicurezza pubblica
+
+* [Beni confiscati]: Agenzia Nazionale per l'amministrazione e la destinazione dei beni sequestrati e confiscati alla criminalità organizzata
+
+* [Elezioni](http://dait.interno.gov.it/elezioni/open-data/): Ministero dell'Interno - Dip. Affari interni e territoriali/Dati Elettoriali
 
 
 ### Istruzione cultura e sport
@@ -50,16 +56,11 @@ A selection of interesting Open datasets from the Italian Public Administration 
 
 * [Carburanti - Prezzi praticati e anagrafica degli impianti](http://www.sviluppoeconomico.gov.it/index.php/it/open-data/elenco-dataset/2032336-carburanti-prezzi-praticati-e-anagrafica-degli-impianti): I dataset, scaricabili in questa sezione in forma attualmente sperimentale, contengono le informazioni relative agli impianti e ai prezzi praticati dei carburanti.
 
-
-
+### Sanità
 
 * [INAIL - Infortuni](https://dati.inail.it/opendata/default/Infortuni/index.html): Sono pubblicati dati "elementari", per singolo infortunio.
 
 * [INAIL - Malattie Professionali](https://dati.inail.it/opendata/default/Malattieprofessionali/index.html): Sono pubblicati dati "elementari", per singolo caso di malattia professionale.
-
-* [Elezioni](http://dait.interno.gov.it/elezioni/open-data/)Governo italiano  Ministero dell'Interno -Dip. Affari interni e territoriali/Dati Elettoriali: 
-
-### Sanità
 
 * [FARMACIE](http://www.dati.salute.gov.it/dati/dettaglioDataset.jsp?menu=dati&idPag=5): Elenco delle farmacie italiane
 
