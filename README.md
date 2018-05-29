@@ -12,31 +12,46 @@ A selection of interesting Open datasets from the Italian Public Administration 
 
 
 ## Italian Public Administration dataset <a name="PAdataset"></a>
-----------------------------------------
 
+* [Elenco Basi di Dati Chiave](http://elenco-basi-di-dati-chiave.readthedocs.io/it/latest/):Questo documento rappresenta il risultato dell’azione «Individuazione delle basi di dati chiave» definita nell’ambito degli Open Data del Piano Triennale per l’Informatica nella PA (2017-2019)
+
+### Economia e finanze
 
 * [Agenzia Demanio](https://dati.agenziademanio.it/#/opendata): Banca dati degli immobili di proprietà statale 
 
+* [OPENBDAP](https://bdap-opendata.mef.gov.it/catalog): Il portale della RGS che mette a disposizione i dati della Finanza Pubblica.
+
+* [OPENCOESIONE](https://opencoesione.gov.it): Dati collegati alle politiche di coesione.
+
 * [Banca dati Servizio Contratti Pubblici - SCP - Ministero trasporti](http://dati.mit.gov.it/catalog/dataset/scp): Il Dataset contiene gli avvisi, i bandi e gli esiti di gara in formato aperto raccolti dalla Banca dati SCP - Servizio Contratti Pubblici gestita dalla Direzione Generale per la regolazione e i contratti pubblici del Ministero delle Infrastrutture e Trasporti. 
 
-* [Beni culturali](http://dati.istruzione.it/opendata/opendata/catalogo/): Il MiBACT ha avviato vari progetti di pubblicazione di dataset in formato linked open data (LOD) e open data (OD)
+* [Catasto rifiuti](http://www.catasto-rifiuti.isprambiente.it): Il Centro Nazionale per il ciclo dei rifiuti di ISPRA effettua annualmente il monitoraggio dei costi sostenuti dai comuni per la gestione dei rifiuti urbani e assimilati. Tali dati sono pubblicati nel Rapporto annuale sui Rifiuti Urbani.
+
+* [MISE: Aiuti di Stato](http://www.sviluppoeconomico.gov.it/index.php/it/open-data/elenco-dataset)-
+
+* [Cantieri Scuole](http://www.cantieriscuole.it/open_data.aspx): Fonti dei principali dataset impiegati per la costruzione ed il funzionamento dell'applicazione CantieriScuole.it di #italiasicura.scuole
+
+
+### Istruzione cultura e sport
+
+* [Beni culturali](http://dati.istruzione.it/opendata/opendata/catalogo/): Il MiBACT ha avviato vari progetti di pubblicazione di dataset in formato linked open data e open data:
   * Thesaurus Reperti Archeologici	
   * Luoghi della cultura	
   * Eventi culturali	
   * Anagrafe delle biblioteche italiane	
   * Archivi di Stato
 
-* [Carburanti - Prezzi praticati e anagrafica degli impianti](http://www.sviluppoeconomico.gov.it/index.php/it/open-data/elenco-dataset/2032336-carburanti-prezzi-praticati-e-anagrafica-degli-impianti): I dataset, scaricabili in questa sezione in forma attualmente sperimentale, contengono le informazioni relative agli impianti e ai prezzi praticati dei carburanti per autotrazione come comunicati al Ministero dai gestori dei distributori in attuazione dell’art. 51 L. 99/2009. 
 
-* [Catasto rifiuti](http://www.catasto-rifiuti.isprambiente.it): Il Centro Nazionale per il ciclo dei rifiuti di ISPRA effettua annualmente il monitoraggio dei costi sostenuti dai comuni per la gestione dei rifiuti urbani e assimilati. Tali dati sono pubblicati nel Rapporto annuale sui Rifiuti Urbani.
-
-* [OPENBDAP](https://bdap-opendata.mef.gov.it/catalog): Il portale della RGS che mette a disposizione i dati della Finanza Pubblica.
+### Trasporti
 
 * [Patenti di Guida](http://dati.mit.gov.it/catalog/dataset/patenti): Il dataset contiene l'elenco delle patenti di guida attive, ossia delle autorizzazioni amministrative alla guida di autoveicoli e motoveicoli, provenienti dall'archivio nazionale abilitati alla guida su strada gestito dalla Motorizzazione.
 
 * [Parco Circolante dei veicoli](http://dati.mit.gov.it/catalog/dataset/parco-circolante-dei-veicoli): Parco circolante dei veicoli su strada ( categorie Autoveicoli e Motoveicoli ) diviso per regione estratto dall'archivio nazionale dei veicoli gestito dalla Motorizzazione.
 
-* [OPENCOESIONE](https://opencoesione.gov.it): Dati collegati alle politiche di coesione.
+* [Carburanti - Prezzi praticati e anagrafica degli impianti](http://www.sviluppoeconomico.gov.it/index.php/it/open-data/elenco-dataset/2032336-carburanti-prezzi-praticati-e-anagrafica-degli-impianti): I dataset, scaricabili in questa sezione in forma attualmente sperimentale, contengono le informazioni relative agli impianti e ai prezzi praticati dei carburanti.
+
+
+
 
 * [INAIL - Infortuni](https://dati.inail.it/opendata/default/Infortuni/index.html): Sono pubblicati dati "elementari", per singolo infortunio.
 
@@ -44,16 +59,13 @@ A selection of interesting Open datasets from the Italian Public Administration 
 
 * [Elezioni](http://dait.interno.gov.it/elezioni/open-data/)Governo italiano  Ministero dell'Interno -Dip. Affari interni e territoriali/Dati Elettoriali: 
 
-* [MISE: Aiuti di Stato](http://www.sviluppoeconomico.gov.it/index.php/it/open-data/elenco-dataset)-
-
-* [Cantieri Scuole](http://www.cantieriscuole.it/open_data.aspx): Fonti dei principali dataset impiegati per la costruzione ed il funzionamento dell'applicazione CantieriScuole.it di #italiasicura.scuole
+### Sanità
 
 * [FARMACIE](http://www.dati.salute.gov.it/dati/dettaglioDataset.jsp?menu=dati&idPag=5): Elenco delle farmacie italiane
 
 Per ulteriori informazioni sulla strategia nazionale di open data consulta il portale nazionale dati.gov.it.
 
 ## Public Administration Use Cases <a name="PADatausecases"></a>
------------------------
 
 * [OPENCANTIERI](http://opencantieri.mit.gov.it/): A che punto di realizzazione è un’opera pubblica. Per quale importo è stata finanziata, quanto sta effettivamente costando, se e perché ritarda, quanti giorni di lavoro vi sono stati effettivamente dedicati.)
 
@@ -70,7 +82,6 @@ Struttura di missione per il coordinamento e l'impulso nell'attuazione degli int
 
 
 ## Civic Data Use Cases <a name="CivicDatausecases"></a> 
------------------------
 
 * [OPENCOESIONE](https://opencoesione.gov.it)- Iniziativa di open government sulle politiche di coesione in Italia con lo scopo di promuovere l'efficacia degli interventi attraverso la pubblicazione dei dati sui progetti finanziati e una diffusa partecipazione civica. 
 
