@@ -42,8 +42,6 @@ Una selezione di alcuni dataset per progetti di data analysis e data science for
 
 ### Giustizia, sistema giuridico e sicurezza pubblica
 
-* [Beni confiscati]: Agenzia Nazionale per l'amministrazione e la destinazione dei beni sequestrati e confiscati alla criminalità organizzata
-
 * [Elezioni](http://dait.interno.gov.it/elezioni/open-data/): Ministero dell'Interno - Dip. Affari interni e territoriali/Dati Elettoriali
 
 
@@ -100,8 +98,18 @@ Struttura di missione per il coordinamento e l'impulso nell'attuazione degli int
 
 * [Urban Index - Indicatori per le Politiche Urbane](https://www.urbanindex.it/): Strumenti utili alla definizione e valutazione delle politiche pubbliche nelle aree urbane e nella convinzione che tali strumenti possano anche rivelarsi utili nella definizione dei contenuti di un’Agenda Urbana Nazionale. Presidenza del Consiglio dei Ministri - Dipartimento per la Programmazione e il Coordinamento della Politica Economica
 
+* [OpenRE.G.I.O](https://openregio.it): Agenzia Nazionale per l'amministrazione e la destinazione dei beni sequestrati e confiscati alla criminalità organizzata
+
 
 ## Civic Data Use Cases <a name="CivicDatausecases"></a> 
 
-* [OPENCOESIONE](https://opencoesione.gov.it)- Iniziativa di open government sulle politiche di coesione in Italia con lo scopo di promuovere l'efficacia degli interventi attraverso la pubblicazione dei dati sui progetti finanziati e una diffusa partecipazione civica. 
+* [OPENCOESIONE](https://opencoesione.gov.it): Iniziativa di open government sulle politiche di coesione in Italia con lo scopo di promuovere l'efficacia degli interventi attraverso la pubblicazione dei dati sui progetti finanziati e una diffusa partecipazione civica. 
+
+* [Monithon](http://www.monithon.it): Monithon è un’iniziativa indipendente di monitoraggio civico. La comunità di Monithon è aperta a tutti coloro che vogliono conoscere e valutare sul campo come vengono spesi i fondi pubblici in Italia. OpenCoesione ci aiuta ad individuare dove sono i finanziamenti per organizzare le nostre ricerche.
+
+* [Confiscati Beni](http://www.confiscatibene.it/it/i-beni-confiscati-italia):
+
+* [Terremoto Centro Italia](https://terremotocentroitalia.info/about/): progetto nato per condividere informazioni utili e verificate sugli eventi sismici che hanno coinvolto il centro Italia durante il 2016 e il 2017.
+
+
 
