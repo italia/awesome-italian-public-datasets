@@ -1,5 +1,5 @@
 # AwesomeItalianPublicData
-Una selezione di alcuni dataset per progetti di data analysis e data science forniti dalla Pubblica Amministrazione in formato aperto e di casi d'uso da parte della PA stessa e della comunità civic hacking italiana.
+Una selezione di alcuni dataset in formato aperto forniti dalla Pubblica Amministrazione e di casi d'uso proposti dalla PA e dalla comunità civic hacking italiana.
 
 
 ## Table of contents:
