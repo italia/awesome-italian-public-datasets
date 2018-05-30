@@ -70,11 +70,12 @@ Una selezione di alcuni dataset in formato aperto forniti dalla Pubblica Amminis
 
 ### Trasporti
 
+* [Carburanti - Prezzi praticati e anagrafica degli impianti](http://www.sviluppoeconomico.gov.it/index.php/it/open-data/elenco-dataset/2032336-carburanti-prezzi-praticati-e-anagrafica-degli-impianti): I dataset, scaricabili in questa sezione in forma attualmente sperimentale, contengono le informazioni relative agli impianti e ai prezzi praticati dei carburanti.
+
 * [Patenti di Guida](http://dati.mit.gov.it/catalog/dataset/patenti): Il dataset contiene l'elenco delle patenti di guida attive, ossia delle autorizzazioni amministrative alla guida di autoveicoli e motoveicoli, provenienti dall'archivio nazionale abilitati alla guida su strada gestito dalla Motorizzazione.
 
 * [Parco Circolante dei veicoli](http://dati.mit.gov.it/catalog/dataset/parco-circolante-dei-veicoli): Parco circolante dei veicoli su strada ( categorie Autoveicoli e Motoveicoli ) diviso per regione estratto dall'archivio nazionale dei veicoli gestito dalla Motorizzazione.
 
-* [Carburanti - Prezzi praticati e anagrafica degli impianti](http://www.sviluppoeconomico.gov.it/index.php/it/open-data/elenco-dataset/2032336-carburanti-prezzi-praticati-e-anagrafica-degli-impianti): I dataset, scaricabili in questa sezione in forma attualmente sperimentale, contengono le informazioni relative agli impianti e ai prezzi praticati dei carburanti.
 
 ### Sanità
 
@@ -88,29 +89,37 @@ Per ulteriori informazioni sulla strategia nazionale di open data consulta il po
 
 ## Public Administration Use Cases <a name="PADatausecases"></a>
 
+* [#ItaliaSicura](http://www.cantieriscuole.it/webgis.aspx): Presidenza del Consiglio dei Ministri
+Struttura di missione per il coordinamento e l'impulso nell'attuazione degli interventi di riqualificazione dell'edilizia scolastica
+
 * [OPENCANTIERI](http://opencantieri.mit.gov.it/): A che punto di realizzazione è un’opera pubblica. Per quale importo è stata finanziata, quanto sta effettivamente costando, se e perché ritarda, quanti giorni di lavoro vi sono stati effettivamente dedicati.)
+
+* [OPENCIVITAS](https://www.opencivitas.it): Il Portale di accesso alle informazioni degli Enti Locali, un’iniziativa di trasparenza promossa dal Dipartimento delle Finanze e dalla SOSE. Conosci, confronta, valuta gli Enti Locali.
+
+* [OPENCUP](http://opencup.gov.it/it/opendata): Open CUP mette a disposizione di tutti - cittadini, istituzioni ed altri enti - i dati, in formato aperto, sulle decisioni di investimento pubblico finanziate con fondi pubblici nazionali, comunitari o regionali o con risorse private registrate con il Codice Unico di Progetto. 
+
+* [OpenRE.G.I.O](https://openregio.it): Agenzia Nazionale per l'amministrazione e la destinazione dei beni sequestrati e confiscati alla criminalità organizzata
 
 * [OPENTRASPORTI](http://opentransport.mit.gov.it/): Una piattaforma per la raccolta dati e l’offerta di servizi digitali a supporto del trasporto, abilitando la filiera co-modale integrata dalla pianificazione del viaggio fino alle destinazioni finali, con una ricaduta positiva non solo nel settore dei trasporti, ma anche sul sistema Italia nel suo complesso (turismo, cultura, servizi diversi). L’obiettivo è quello di creare un hub nazionale dei dati dell’infomobilità per lo sviluppo di  servizi avanzati al viaggiatore.
 
 * [OPENDEMANIO](https://dati.agenziademanio.it): Iniziativa di open government sulle informazioni gestite dall’Agenzia del Demanio
 
-* [OPENCUP](http://opencup.gov.it/it/opendata): Open CUP mette a disposizione di tutti - cittadini, istituzioni ed altri enti - i dati, in formato aperto, sulle decisioni di investimento pubblico finanziate con fondi pubblici nazionali, comunitari o regionali o con risorse private registrate con il Codice Unico di Progetto. 
-
-* [#ItaliaSicura](http://www.cantieriscuole.it/webgis.aspx): Presidenza del Consiglio dei Ministri
-Struttura di missione per il coordinamento e l'impulso nell'attuazione degli interventi di riqualificazione dell'edilizia scolastica
-
 * [Urban Index - Indicatori per le Politiche Urbane](https://www.urbanindex.it/): Strumenti utili alla definizione e valutazione delle politiche pubbliche nelle aree urbane e nella convinzione che tali strumenti possano anche rivelarsi utili nella definizione dei contenuti di un’Agenda Urbana Nazionale. Presidenza del Consiglio dei Ministri - Dipartimento per la Programmazione e il Coordinamento della Politica Economica
-
-* [OpenRE.G.I.O](https://openregio.it): Agenzia Nazionale per l'amministrazione e la destinazione dei beni sequestrati e confiscati alla criminalità organizzata
 
 
 ## Civic Data Use Cases <a name="CivicDatausecases"></a> 
 
-* [OPENCOESIONE](https://opencoesione.gov.it): Iniziativa di open government sulle politiche di coesione in Italia con lo scopo di promuovere l'efficacia degli interventi attraverso la pubblicazione dei dati sui progetti finanziati e una diffusa partecipazione civica. 
+
+* [Confiscati Beni](http://www.confiscatibene.it/it/i-beni-confiscati-italia): I beni confiscati in Italia
+
 
 * [Monithon](http://www.monithon.it): Monithon è un’iniziativa indipendente di monitoraggio civico. La comunità di Monithon è aperta a tutti coloro che vogliono conoscere e valutare sul campo come vengono spesi i fondi pubblici in Italia. OpenCoesione ci aiuta ad individuare dove sono i finanziamenti per organizzare le nostre ricerche.
 
-* [Confiscati Beni](http://www.confiscatibene.it/it/i-beni-confiscati-italia): I beni confiscati in Italia
+* [OpenBilanci](https://openbilanci.it): I bilanci di tutti i comuni italiani
+
+* [OPENCOESIONE](https://opencoesione.gov.it): Iniziativa di open government sulle politiche di coesione in Italia con lo scopo di promuovere l'efficacia degli interventi attraverso la pubblicazione dei dati sui progetti finanziati e una diffusa partecipazione civica. 
+
+* [OpenParlamento](https://parlamento17.openpolis.it). Informati, monitorati e intervieni neil lavori del Parlamento Italiano.
 
 * [Terremoto Centro Italia](https://terremotocentroitalia.info/about/): progetto nato per condividere informazioni utili e verificate sugli eventi sismici che hanno coinvolto il centro Italia durante il 2016 e il 2017.
 
