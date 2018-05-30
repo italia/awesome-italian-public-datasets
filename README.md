@@ -107,7 +107,7 @@ Struttura di missione per il coordinamento e l'impulso nell'attuazione degli int
 
 * [Monithon](http://www.monithon.it): Monithon è un’iniziativa indipendente di monitoraggio civico. La comunità di Monithon è aperta a tutti coloro che vogliono conoscere e valutare sul campo come vengono spesi i fondi pubblici in Italia. OpenCoesione ci aiuta ad individuare dove sono i finanziamenti per organizzare le nostre ricerche.
 
-* [Confiscati Beni](http://www.confiscatibene.it/it/i-beni-confiscati-italia):
+* [Confiscati Beni](http://www.confiscatibene.it/it/i-beni-confiscati-italia): I beni confiscati in Italia
 
 * [Terremoto Centro Italia](https://terremotocentroitalia.info/about/): progetto nato per condividere informazioni utili e verificate sugli eventi sismici che hanno coinvolto il centro Italia durante il 2016 e il 2017.
 
