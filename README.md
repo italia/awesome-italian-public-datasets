@@ -15,6 +15,15 @@ Una selezione di alcuni dataset per progetti di data analysis e data science for
 
 * [Elenco Basi di Dati Chiave](http://elenco-basi-di-dati-chiave.readthedocs.io/it/latest/): Questo documento rappresenta il risultato dell’azione «Individuazione delle basi di dati chiave» definita nell’ambito degli Open Data del Piano Triennale per l’Informatica nella PA (2017-2019)
 
+### Ambiente
+
+* [ISPRA](http://dati.isprambiente.it/id/catalogue/): I Linked Open Data dell’Istituto Superiore per la Protezione e la Ricerca Ambientale
+  * ReNDiS - Il Repertorio Nazionale degli interventi per la Difesa del Suolo
+  * CdS - Il consumo di suolo in Italia
+  * RMN - La Rete Mareografica Nazionale
+  * RON - Rete Ondametrica Nazionale
+
+
 ### Economia e finanze
 
 * [Agenzia Demanio](https://dati.agenziademanio.it/#/opendata): Banca dati degli immobili di proprietà statale 
@@ -27,7 +36,7 @@ Una selezione di alcuni dataset per progetti di data analysis e data science for
 
 * [Catasto rifiuti](http://www.catasto-rifiuti.isprambiente.it): Il Centro Nazionale per il ciclo dei rifiuti di ISPRA effettua annualmente il monitoraggio dei costi sostenuti dai comuni per la gestione dei rifiuti urbani e assimilati. Tali dati sono pubblicati nel Rapporto annuale sui Rifiuti Urbani.
 
-* [MISE: Aiuti di Stato](http://www.sviluppoeconomico.gov.it/index.php/it/open-data/elenco-dataset)-
+* [MISE: Aiuti di Stato](http://www.sviluppoeconomico.gov.it/index.php/it/open-data/elenco-dataset)
 
 * [Cantieri Scuole](http://www.cantieriscuole.it/open_data.aspx): Fonti dei principali dataset impiegati per la costruzione ed il funzionamento dell'applicazione CantieriScuole.it di #italiasicura.scuole
 
@@ -47,6 +56,16 @@ Una selezione di alcuni dataset per progetti di data analysis e data science for
   * Anagrafe delle biblioteche italiane	
   * Archivi di Stato
 
+* [MIUR - Portale unico dei dati della scuola](http://dati.istruzione.it/opendata/opendata/) 
+   * [Ambito Scuola](http://dati.istruzione.it/opendata/opendata/catalogo/#Scuola)
+     * Anagrafiche scuole
+     * Studenti
+     * Personale scuola
+     * Ediizia scolastica
+     * Sistema nazionale di valutazione
+  * [Ambito PON](http://dati.istruzione.it/opendata/opendata/catalogo/#PON) 
+  
+  
 
 ### Trasporti
 
