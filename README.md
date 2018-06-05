@@ -64,6 +64,7 @@ Una selezione di alcuni dataset in formato aperto forniti dalla Pubblica Amminis
      * Personale scuola
      * Ediizia scolastica
      * Sistema nazionale di valutazione
+  * [Scuola Secondaria](http://ustat.miur.it/)
   * [Ambito PON](http://dati.istruzione.it/opendata/opendata/catalogo/#PON) 
   
   
