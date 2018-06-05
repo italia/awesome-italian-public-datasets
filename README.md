@@ -1,6 +1,9 @@
 # AwesomeItalianPublicData
 Una selezione di alcuni dataset in formato aperto forniti dalla Pubblica Amministrazione e di casi d'uso proposti dalla PA e dalla comunità civic hacking italiana.
 
+Vuoi Contribuire?
+
+Contribuisci con una segnalazione a migliorare AwesomeItalianPublicData.
 
 ## Table of contents:
 
