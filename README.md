@@ -86,6 +86,8 @@ Una selezione di alcuni dataset in formato aperto forniti dalla Pubblica Amminis
 
 * [FARMACIE](http://www.dati.salute.gov.it/dati/dettaglioDataset.jsp?menu=dati&idPag=5): Elenco delle farmacie italiane
 
+* [Dispositivi Medici](http://www.dati.salute.gov.it/dati/dettaglioDataset.jsp?menu=dati&idPag=1): Elenco aggiornato con cadenza settimanale dei dispositivi medici registrati presso la banca dati e il Repertorio del Ministero della Salute.
+
 Per ulteriori informazioni sulla strategia nazionale di open data consulta il portale nazionale dati.gov.it.
 
 ## Public Administration Use Cases <a name="PADatausecases"></a>
