@@ -16,10 +16,10 @@ Leggi come [contribuire con una segnalazione](https://github.com/mariaclaudia/Aw
 
 ## Italian Public Administration dataset <a name="PAdataset"></a>
 
-* [Elenco Basi di Dati Chiave](http://elenco-basi-di-dati-chiave.readthedocs.io/it/latest/): Questo documento rappresenta il risultato dell’azione «Individuazione delle basi di dati chiave» definita nell’ambito degli Open Data del Piano Triennale per l’Informatica nella PA (2017-2019)
+* [Elenco Basi di Dati Chiave](http://elenco-basi-di-dati-chiave.readthedocs.io/it/latest/): Questo documento rappresenta il risultato dell’azione «Individuazione delle basi di dati chiave» definita nell’ambito degli Open Data del Piano Triennale per l’Informatica nella PA (2017-2019).
 
 Sulla base della valutazione dei diversi temi per i dati discussa nell’ambito del gruppo Europeo DCAT-AP, nel seguito si offre un possibile mapping di domini applicativi rispetto ai temi del suddetto [vocabolario controllato](https://joinup.ec.europa.eu/document/review-dcat-ap-draft-proposal-list-categorization-data).
-Per ulteriori info si segnala ["Temi dei dati"](https://linee-guida-cataloghi-dati-profilo-dcat-ap-it.readthedocs.io/it/latest/temi.html)
+Per ulteriori info si segnala ["Temi dei dati"](https://linee-guida-cataloghi-dati-profilo-dcat-ap-it.readthedocs.io/it/latest/temi.html).
 
 ### Agricoltura, pesca, silvicoltura e prodotti alimentari
 
@@ -57,7 +57,7 @@ In questo tema rientra tutto ciò che concerne il settore dell’energia e dell�
 
 In questo tema rientra tutto ciò che riguarda l’ambiente (rifiuti, consumo del suolo, oceani, ecc.) e il clima/meteo.
 
-* [ISPRA](http://dati.isprambiente.it/id/catalogue/): I Linked Open Data dell’Istituto Superiore per la Protezione e la Ricerca Ambientale
+* [ISPRA](http://dati.isprambiente.it/id/catalogue/): I Linked Open Data dell’Istituto Superiore per la Protezione e la Ricerca Ambientale.
   * ReNDiS - Il Repertorio Nazionale degli interventi per la Difesa del Suolo
   * CdS - Il consumo di suolo in Italia
   * RMN - La Rete Mareografica Nazionale
@@ -84,7 +84,7 @@ In questo tema rientra tutto ciò che concerne le relazioni internazionali, la c
 
 In questo tema rientra tutto ciò che riguarda le frodi, i crimini, la giustizia, le norme. Rientra anche tutto ciò che riguarda la difesa e gli aspetti legati alle attività del ministero dell’interno.
 
-* [Elezioni](http://dait.interno.gov.it/elezioni/open-data/): Ministero dell'Interno - Dip. Affari interni e territoriali/Dati Elettoriali
+* [Elezioni](http://dait.interno.gov.it/elezioni/open-data/): Ministero dell'Interno - Dip. Affari interni e territoriali/Dati Elettoriali.
 
 ### Regioni e città
 
@@ -110,9 +110,9 @@ In questo tema rientra tutto ciò che riguarda la ricerca, l’innovazione, la t
 
 
 ### Governo e settore pubblico
-In questo tema rientra tutto ciò che riguarda le politiche di governo, gli affari istituzionali, la trasparenza del settore pubblico (dati relativi ad amministrazione trasparente)
+In questo tema rientra tutto ciò che riguarda le politiche di governo, gli affari istituzionali, la trasparenza del settore pubblico (dati relativi ad amministrazione trasparente).
 
-* [Agenzia Demanio](https://dati.agenziademanio.it/#/opendata): Banca dati degli immobili di proprietà statale 
+* [Agenzia Demanio](https://dati.agenziademanio.it/#/opendata): Banca dati degli immobili di proprietà statale. 
 
 * [Cantieri Scuole](http://www.cantieriscuole.it/open_data.aspx): Fonti dei principali dataset impiegati per la costruzione ed il funzionamento dell'applicazione CantieriScuole.it di #italiasicura.scuole
 
@@ -134,21 +134,21 @@ Per ulteriori informazioni sulla strategia nazionale di open data consulta il po
 ## Public Administration Use Cases <a name="PADatausecases"></a>
 
 * [#ItaliaSicura](http://www.cantieriscuole.it/webgis.aspx): Presidenza del Consiglio dei Ministri
-Struttura di missione per il coordinamento e l'impulso nell'attuazione degli interventi di riqualificazione dell'edilizia scolastica
+Struttura di missione per il coordinamento e l'impulso nell'attuazione degli interventi di riqualificazione dell'edilizia scolastica.
 
-* [OPENCANTIERI](http://opencantieri.mit.gov.it/): A che punto di realizzazione è un’opera pubblica. Per quale importo è stata finanziata, quanto sta effettivamente costando, se e perché ritarda, quanti giorni di lavoro vi sono stati effettivamente dedicati.)
+* [OPENCANTIERI](http://opencantieri.mit.gov.it/): A che punto di realizzazione è un’opera pubblica. Per quale importo è stata finanziata, quanto sta effettivamente costando, se e perché ritarda, quanti giorni di lavoro vi sono stati effettivamente dedicati.
 
 * [OPENCIVITAS](https://www.opencivitas.it): Il Portale di accesso alle informazioni degli Enti Locali, un’iniziativa di trasparenza promossa dal Dipartimento delle Finanze e dalla SOSE. Conosci, confronta, valuta gli Enti Locali.
 
 * [OPENCUP](http://opencup.gov.it/it/opendata): Open CUP mette a disposizione di tutti - cittadini, istituzioni ed altri enti - i dati, in formato aperto, sulle decisioni di investimento pubblico finanziate con fondi pubblici nazionali, comunitari o regionali o con risorse private registrate con il Codice Unico di Progetto. 
 
-* [OpenRE.G.I.O](https://openregio.it): Agenzia Nazionale per l'amministrazione e la destinazione dei beni sequestrati e confiscati alla criminalità organizzata
+* [OpenRE.G.I.O](https://openregio.it): Agenzia Nazionale per l'amministrazione e la destinazione dei beni sequestrati e confiscati alla criminalità organizzata.
 
 * [OPENTRASPORTI](http://opentransport.mit.gov.it/): Una piattaforma per la raccolta dati e l’offerta di servizi digitali a supporto del trasporto, abilitando la filiera co-modale integrata dalla pianificazione del viaggio fino alle destinazioni finali, con una ricaduta positiva non solo nel settore dei trasporti, ma anche sul sistema Italia nel suo complesso (turismo, cultura, servizi diversi). L’obiettivo è quello di creare un hub nazionale dei dati dell’infomobilità per lo sviluppo di  servizi avanzati al viaggiatore.
 
-* [OPENDEMANIO](https://dati.agenziademanio.it): Iniziativa di open government sulle informazioni gestite dall’Agenzia del Demanio
+* [OPENDEMANIO](https://dati.agenziademanio.it): Iniziativa di open government sulle informazioni gestite dall’Agenzia del Demanio.
 
-* [Urban Index - Indicatori per le Politiche Urbane](https://www.urbanindex.it/): Strumenti utili alla definizione e valutazione delle politiche pubbliche nelle aree urbane e nella convinzione che tali strumenti possano anche rivelarsi utili nella definizione dei contenuti di un’Agenda Urbana Nazionale. Presidenza del Consiglio dei Ministri - Dipartimento per la Programmazione e il Coordinamento della Politica Economica
+* [Urban Index - Indicatori per le Politiche Urbane](https://www.urbanindex.it/): Strumenti utili alla definizione e valutazione delle politiche pubbliche nelle aree urbane e nella convinzione che tali strumenti possano anche rivelarsi utili nella definizione dei contenuti di un’Agenda Urbana Nazionale. Presidenza del Consiglio dei Ministri - Dipartimento per la Programmazione e il Coordinamento della Politica Economica.
 
 
 ## Civic Data Use Cases <a name="CivicDatausecases"></a> 
@@ -156,12 +156,13 @@ Struttura di missione per il coordinamento e l'impulso nell'attuazione degli int
 
 * [Confiscati Beni](http://www.confiscatibene.it/it/i-beni-confiscati-italia): I beni confiscati in Italia
 
-
 * [Monithon](http://www.monithon.it): Monithon è un’iniziativa indipendente di monitoraggio civico. La comunità di Monithon è aperta a tutti coloro che vogliono conoscere e valutare sul campo come vengono spesi i fondi pubblici in Italia. OpenCoesione ci aiuta ad individuare dove sono i finanziamenti per organizzare le nostre ricerche.
 
 * [OpenBilanci](https://openbilanci.it): I bilanci di tutti i comuni italiani
 
 * [OPENCOESIONE](https://opencoesione.gov.it): Iniziativa di open government sulle politiche di coesione in Italia con lo scopo di promuovere l'efficacia degli interventi attraverso la pubblicazione dei dati sui progetti finanziati e una diffusa partecipazione civica. 
+
+* [Open Dormire](https://www.fabiodisconzi.com/open-dormire/index.html): Gli opendata a servizio del turismo: trova un alloggio.
 
 * [OpenParlamento](https://parlamento17.openpolis.it). Informati, monitorati e intervieni neil lavori del Parlamento Italiano.
 
