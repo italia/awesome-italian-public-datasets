@@ -18,40 +18,20 @@ Leggi come [contribuire con una segnalazione](https://github.com/mariaclaudia/Aw
 
 * [Elenco Basi di Dati Chiave](http://elenco-basi-di-dati-chiave.readthedocs.io/it/latest/): Questo documento rappresenta il risultato dell’azione «Individuazione delle basi di dati chiave» definita nell’ambito degli Open Data del Piano Triennale per l’Informatica nella PA (2017-2019)
 
-### Ambiente
+Sulla base della valutazione dei diversi temi per i dati discussa nell’ambito del gruppo Europeo DCAT-AP, nel seguito si offre un possibile mapping di domini applicativi rispetto ai temi del suddetto [vocabolario controllato](https://joinup.ec.europa.eu/document/review-dcat-ap-draft-proposal-list-categorization-data).
+Per ulteriori info si segnala ["Temi dei dati"](https://linee-guida-cataloghi-dati-profilo-dcat-ap-it.readthedocs.io/it/latest/temi.html)
 
-* [ISPRA](http://dati.isprambiente.it/id/catalogue/): I Linked Open Data dell’Istituto Superiore per la Protezione e la Ricerca Ambientale
-  * ReNDiS - Il Repertorio Nazionale degli interventi per la Difesa del Suolo
-  * CdS - Il consumo di suolo in Italia
-  * RMN - La Rete Mareografica Nazionale
-  * RON - Rete Ondametrica Nazionale
+### Agricoltura, pesca, silvicoltura e prodotti alimentari
 
+In questo tema rientra tutto ciò che riguarda il settore agricoltura, pesca, politiche forestali e alimentari.
 
-### Economia e finanze
+### Economia e Finanze
 
-* [Agenzia Demanio](https://dati.agenziademanio.it/#/opendata): Banca dati degli immobili di proprietà statale 
-
-* [Cantieri Scuole](http://www.cantieriscuole.it/open_data.aspx): Fonti dei principali dataset impiegati per la costruzione ed il funzionamento dell'applicazione CantieriScuole.it di #italiasicura.scuole
-
-* [Banca dati Servizio Contratti Pubblici - SCP - Ministero trasporti](http://dati.mit.gov.it/catalog/dataset/scp): Il Dataset contiene gli avvisi, i bandi e gli esiti di gara in formato aperto raccolti dalla Banca dati SCP - Servizio Contratti Pubblici gestita dalla Direzione Generale per la regolazione e i contratti pubblici del Ministero delle Infrastrutture e Trasporti. 
-
-* [Catasto rifiuti](http://www.catasto-rifiuti.isprambiente.it): Il Centro Nazionale per il ciclo dei rifiuti di ISPRA effettua annualmente il monitoraggio dei costi sostenuti dai comuni per la gestione dei rifiuti urbani e assimilati. Tali dati sono pubblicati nel Rapporto annuale sui Rifiuti Urbani.
-
-* [MISE: Aiuti di Stato](http://www.sviluppoeconomico.gov.it/index.php/it/open-data/elenco-dataset)
-
-* [OPENBDAP](https://bdap-opendata.mef.gov.it/catalog): Il portale della RGS che mette a disposizione i dati della Finanza Pubblica.
-
-* [OPENCOESIONE](https://opencoesione.gov.it): Dati collegati alle politiche di coesione. Progetto menzionato nella sezione dedicata.
-
-* [SIOPE](https://www.siope.it/Siope/): dati sulle rilevazione telematica degli incassi e dei pagamenti effettuati dai tesorieri di tutte le amministrazioni pubbliche, che nasce dalla collaborazione tra la Ragioneria Generale dello Stato, la Banca d'Italia e l'ISTAT.
-
-
-### Giustizia, sistema giuridico e sicurezza pubblica
-
-* [Elezioni](http://dait.interno.gov.it/elezioni/open-data/): Ministero dell'Interno - Dip. Affari interni e territoriali/Dati Elettoriali
-
+In questo tema rientra tutto ciò che riguarda la tassazione, l’industria, il manifatturiero, il bilancio dello stato, la crescita economica, il commercio.
 
 ### Istruzione cultura e sport
+
+In questo tema rientra tutto ciò che riguarda la cultura, il turismo, l’istruzione e le attività sportive, eventi culturali e locali.
 
 * [Beni culturali](http://dati.istruzione.it/opendata/opendata/catalogo/): Il MiBACT ha avviato vari progetti di pubblicazione di dataset in formato linked open data e open data:
   * Thesaurus Reperti Archeologici	
@@ -70,18 +50,23 @@ Leggi come [contribuire con una segnalazione](https://github.com/mariaclaudia/Aw
   * [Scuola Secondaria](http://ustat.miur.it/)
   * [Ambito PON](http://dati.istruzione.it/opendata/opendata/catalogo/#PON) 
   
-  
+### Energia 
+In questo tema rientra tutto ciò che concerne il settore dell’energia e dell’estrazione mineraria.
 
-### Trasporti
+### Ambiente
 
-* [Carburanti - Prezzi praticati e anagrafica degli impianti](http://www.sviluppoeconomico.gov.it/index.php/it/open-data/elenco-dataset/2032336-carburanti-prezzi-praticati-e-anagrafica-degli-impianti): I dataset, scaricabili in questa sezione in forma attualmente sperimentale, contengono le informazioni relative agli impianti e ai prezzi praticati dei carburanti.
+In questo tema rientra tutto ciò che riguarda l’ambiente (rifiuti, consumo del suolo, oceani, ecc.) e il clima/meteo.
 
-* [Patenti di Guida](http://dati.mit.gov.it/catalog/dataset/patenti): Il dataset contiene l'elenco delle patenti di guida attive, ossia delle autorizzazioni amministrative alla guida di autoveicoli e motoveicoli, provenienti dall'archivio nazionale abilitati alla guida su strada gestito dalla Motorizzazione.
+* [ISPRA](http://dati.isprambiente.it/id/catalogue/): I Linked Open Data dell’Istituto Superiore per la Protezione e la Ricerca Ambientale
+  * ReNDiS - Il Repertorio Nazionale degli interventi per la Difesa del Suolo
+  * CdS - Il consumo di suolo in Italia
+  * RMN - La Rete Mareografica Nazionale
+  * RON - Rete Ondametrica Nazionale
 
-* [Parco Circolante dei veicoli](http://dati.mit.gov.it/catalog/dataset/parco-circolante-dei-veicoli): Parco circolante dei veicoli su strada ( categorie Autoveicoli e Motoveicoli ) diviso per regione estratto dall'archivio nazionale dei veicoli gestito dalla Motorizzazione.
 
+### Salute
 
-### Sanità
+In questo tema rientra tutto ciò che concerne le attività sulla salute e tutto ciò che riguarda gli animali. 
 
 * [INAIL - Infortuni](https://dati.inail.it/opendata/default/Infortuni/index.html): Sono pubblicati dati "elementari", per singolo infortunio.
 
@@ -90,6 +75,59 @@ Leggi come [contribuire con una segnalazione](https://github.com/mariaclaudia/Aw
 * [FARMACIE](http://www.dati.salute.gov.it/dati/dettaglioDataset.jsp?menu=dati&idPag=5): Elenco delle farmacie italiane
 
 * [Dispositivi Medici](http://www.dati.salute.gov.it/dati/dettaglioDataset.jsp?menu=dati&idPag=1): Elenco aggiornato con cadenza settimanale dei dispositivi medici registrati presso la banca dati e il Repertorio del Ministero della Salute.
+
+### Tematiche internazionali
+
+In questo tema rientra tutto ciò che concerne le relazioni internazionali, la cooperazione internazionale, i diritti umanitari, le organizzazioni internazionali e gli affari esteri.
+
+### Giustizia, sistema giuridico e sicurezza pubblica
+
+In questo tema rientra tutto ciò che riguarda le frodi, i crimini, la giustizia, le norme. Rientra anche tutto ciò che riguarda la difesa e gli aspetti legati alle attività del ministero dell’interno.
+
+* [Elezioni](http://dait.interno.gov.it/elezioni/open-data/): Ministero dell'Interno - Dip. Affari interni e territoriali/Dati Elettoriali
+
+### Regioni e città
+
+In questo tema rientra tutto ciò che riguarda le strade urbane e i numeri civici. Il tema ha una forte sovrapposizione con ambiente perché potrebbe anche contenere tutto ciò che concerne la geografia del territorio (e.g., montagne, laghi, fiumi, ecc.). 
+
+### Popolazione e società
+
+In questo tema rientra tutto ciò che concerne lo sviluppo della società, le condizioni della società, la cittadinanza, la demografia, il welfare.
+
+### Scienza e tecnologia
+
+In questo tema rientra tutto ciò che riguarda la ricerca, l’innovazione, la tecnologia, la banda larga e ultralarga, la psicologia, le scienze umane, lo spazio. 
+
+### Trasporti
+
+* [ACI - Automobile Club d'Italia](http://www.aci.it/laci/studi-e-ricerche/dati-e-statistiche.html): pubblicazioni statistiche relative al fenomeno della motorizzazione nel suo complesso: parco veicoli e tendenze di mercato, incidentalità; archivio annuari sulla circolazione e le tendenze del mercato.
+
+* [Carburanti - Prezzi praticati e anagrafica degli impianti](http://www.sviluppoeconomico.gov.it/index.php/it/open-data/elenco-dataset/2032336-carburanti-prezzi-praticati-e-anagrafica-degli-impianti): I dataset, scaricabili in questa sezione in forma attualmente sperimentale, contengono le informazioni relative agli impianti e ai prezzi praticati dei carburanti.
+
+* [Patenti di Guida](http://dati.mit.gov.it/catalog/dataset/patenti): Il dataset contiene l'elenco delle patenti di guida attive, ossia delle autorizzazioni amministrative alla guida di autoveicoli e motoveicoli, provenienti dall'archivio nazionale abilitati alla guida su strada gestito dalla Motorizzazione.
+
+* [Parco Circolante dei veicoli](http://dati.mit.gov.it/catalog/dataset/parco-circolante-dei-veicoli): Parco circolante dei veicoli su strada ( categorie Autoveicoli e Motoveicoli ) diviso per regione estratto dall'archivio nazionale dei veicoli gestito dalla Motorizzazione.
+
+
+### Governo e settore pubblico
+In questo tema rientra tutto ciò che riguarda le politiche di governo, gli affari istituzionali, la trasparenza del settore pubblico (dati relativi ad amministrazione trasparente)
+
+* [Agenzia Demanio](https://dati.agenziademanio.it/#/opendata): Banca dati degli immobili di proprietà statale 
+
+* [Cantieri Scuole](http://www.cantieriscuole.it/open_data.aspx): Fonti dei principali dataset impiegati per la costruzione ed il funzionamento dell'applicazione CantieriScuole.it di #italiasicura.scuole
+
+* [Banca dati Servizio Contratti Pubblici - SCP - Ministero trasporti](http://dati.mit.gov.it/catalog/dataset/scp): Il Dataset contiene gli avvisi, i bandi e gli esiti di gara in formato aperto raccolti dalla Banca dati SCP - Servizio Contratti Pubblici gestita dalla Direzione Generale per la regolazione e i contratti pubblici del Ministero delle Infrastrutture e Trasporti. 
+
+* [Catasto rifiuti](http://www.catasto-rifiuti.isprambiente.it): Il Centro Nazionale per il ciclo dei rifiuti di ISPRA effettua annualmente il monitoraggio dei costi sostenuti dai comuni per la gestione dei rifiuti urbani e assimilati. Tali dati sono pubblicati nel Rapporto annuale sui Rifiuti Urbani.
+
+* [MISE: Aiuti di Stato](http://www.sviluppoeconomico.gov.it/index.php/it/open-data/elenco-dataset)
+
+* [OPENBDAP](https://bdap-opendata.mef.gov.it/catalog): Il portale della RGS che mette a disposizione i dati della Finanza Pubblica.
+
+* [OPENCOESIONE](https://opencoesione.gov.it): Dati collegati alle politiche di coesione. Progetto menzionato nella sezione dedicata.
+
+* [SIOPE](https://www.siope.it/Siope/): dati sulle rilevazione telematica degli incassi e dei pagamenti effettuati dai tesorieri di tutte le amministrazioni pubbliche, che nasce dalla collaborazione tra la Ragioneria Generale dello Stato, la Banca d'Italia e l'ISTAT.
+
 
 Per ulteriori informazioni sulla strategia nazionale di open data consulta il portale nazionale dati.gov.it.
 
