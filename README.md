@@ -24,7 +24,9 @@ Per ulteriori info si segnala ["Temi dei dati"](https://linee-guida-cataloghi-da
 ### Agricoltura, pesca, silvicoltura e prodotti alimentari
 
 In questo tema rientra tutto ciò che riguarda il settore agricoltura, pesca, politiche forestali e alimentari.
-
+* [Ministero delle politiche agricole alimentari e forestali](https://www.politicheagricole.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/6991)
+  * [Pesca Marittima](https://www.politicheagricole.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/8327)
+  
 ### Economia e Finanze
 
 In questo tema rientra tutto ciò che riguarda la tassazione, l’industria, il manifatturiero, il bilancio dello stato, la crescita economica, il commercio.
