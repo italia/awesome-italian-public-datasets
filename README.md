@@ -92,6 +92,8 @@ In questo tema rientra tutto ciò che riguarda le frodi, i crimini, la giustizia
 
 In questo tema rientra tutto ciò che riguarda le strade urbane e i numeri civici. Il tema ha una forte sovrapposizione con ambiente perché potrebbe anche contenere tutto ciò che concerne la geografia del territorio (e.g., montagne, laghi, fiumi, ecc.). 
 
+* [Estratti OpenStreetMap](http://estratti.openstreetmap.it/): In questo sito web sono a disposizione per il download libero e gratuito estratti del database OpenStreetMap Italia ritagliati per Regione e Comune. I dati sono aggiornati quotidianamente per tutti i formati disponibili.
+
 ### Popolazione e società
 
 In questo tema rientra tutto ciò che concerne lo sviluppo della società, le condizioni della società, la cittadinanza, la demografia, il welfare.
