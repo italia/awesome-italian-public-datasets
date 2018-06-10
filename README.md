@@ -35,7 +35,7 @@ In questo tema rientra tutto ciò che riguarda la tassazione, l’industria, il 
 
 In questo tema rientra tutto ciò che riguarda la cultura, il turismo, l’istruzione e le attività sportive, eventi culturali e locali.
 
-* [Beni culturali](http://dati.istruzione.it/opendata/opendata/catalogo/): Il MiBACT ha avviato vari progetti di pubblicazione di dataset in formato linked open data e open data:
+* [Beni culturali](http://www.catalogo.beniculturali.it/opendata/): Il MiBACT ha avviato vari progetti di pubblicazione di dataset in formato linked open data e open data:
   * Thesaurus Reperti Archeologici	
   * Luoghi della cultura	
   * Eventi culturali	
