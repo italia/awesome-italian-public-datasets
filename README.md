@@ -158,7 +158,7 @@ Struttura di missione per il coordinamento e l'impulso nell'attuazione degli int
 ## Civic Data Use Cases <a name="CivicDatausecases"></a> 
 
 
-* [Confiscati Beni](http://www.confiscatibene.it/it/i-beni-confiscati-italia): I beni confiscati in Italia
+* [Confiscati Bene](http://www.confiscatibene.it/it/i-beni-confiscati-italia): I beni confiscati in Italia
 
 * [Monithon](http://www.monithon.it): Monithon è un’iniziativa indipendente di monitoraggio civico. La comunità di Monithon è aperta a tutti coloro che vogliono conoscere e valutare sul campo come vengono spesi i fondi pubblici in Italia. OpenCoesione ci aiuta ad individuare dove sono i finanziamenti per organizzare le nostre ricerche.
 
