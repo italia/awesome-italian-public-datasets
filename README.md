@@ -172,5 +172,7 @@ Struttura di missione per il coordinamento e l'impulso nell'attuazione degli int
 
 * [Terremoto Centro Italia](https://terremotocentroitalia.info/about/): progetto nato per condividere informazioni utili e verificate sugli eventi sismici che hanno coinvolto il centro Italia durante il 2016 e il 2017.
 
+* [Wikidata e le scuole italiane](http://tinyurl.com/y8k3vc63): parte delle informazioni anagrafiche del MIUR (Ambito Scuola) sono state caricate in [Wikidata](https://www.wikidata.org/) in formato Linked Data e interconnesse alla base di conoscenza della Wikimedia Foundation, rendendo possibile a tutti l'arricchimento di questi dati in modo strutturato. Maggiori informazioni sulla [pagina del bot](https://www.wikidata.org/wiki/User:ItalianSchoolsBot) usato per il bulk load.
+
 
 
