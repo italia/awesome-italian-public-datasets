@@ -78,6 +78,8 @@ In questo tema rientra tutto ciò che concerne le attività sulla salute e tutto
 
 * [Dispositivi Medici](http://www.dati.salute.gov.it/dati/dettaglioDataset.jsp?menu=dati&idPag=1): Elenco aggiornato con cadenza settimanale dei dispositivi medici registrati presso la banca dati e il Repertorio del Ministero della Salute.
 
+* [Agenzia Italiana del Farmaco (AIFA)](http://www.aifa.gov.it/content/open-data): diversi dataset con info sui farmaci
+
 ### Tematiche internazionali
 
 In questo tema rientra tutto ciò che concerne le relazioni internazionali, la cooperazione internazionale, i diritti umanitari, le organizzazioni internazionali e gli affari esteri.
