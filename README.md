@@ -47,7 +47,7 @@ In questo tema rientra tutto ciò che riguarda la cultura, il turismo, l’istru
      * Anagrafiche scuole
      * Studenti
      * Personale scuola
-     * Ediizia scolastica
+     * Edilizia scolastica
      * Sistema nazionale di valutazione
   * [Scuola Secondaria](http://ustat.miur.it/)
   * [Ambito PON](http://dati.istruzione.it/opendata/opendata/catalogo/#PON) 
@@ -60,8 +60,9 @@ In questo tema rientra tutto ciò che concerne il settore dell’energia e dell�
 In questo tema rientra tutto ciò che riguarda l’ambiente (rifiuti, consumo del suolo, oceani, ecc.) e il clima/meteo.
 
 * [ISPRA](http://dati.isprambiente.it/id/catalogue/): I Linked Open Data dell’Istituto Superiore per la Protezione e la Ricerca Ambientale.
-  * ReNDiS - Il Repertorio Nazionale degli interventi per la Difesa del Suolo
   * CdS - Il consumo di suolo in Italia
+  * [MAIS](http://www.sinanet.isprambiente.it/it/sia-ispra/download-mais/mosaicature-nazionali-ispra-pericolosita-frane-alluvioni) - Mosaicature Nazionali ISPRA pericolosità frane alluvioni
+  * ReNDiS - Il Repertorio Nazionale degli interventi per la Difesa del Suolo
   * RMN - La Rete Mareografica Nazionale
   * RON - Rete Ondametrica Nazionale
 
