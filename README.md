@@ -162,7 +162,7 @@ Struttura di missione per il coordinamento e l'impulso nell'attuazione degli int
 
 | Progetto civico  | Descrizione | Dati aperti usati | Dati aperti creati |
 | ----------------| ------------- | ----------------| ------------- |  
-| [Confiscati Bene](http://www.confiscatibene.it/it/i-beni-confiscati-italia) | I beni confiscati in Italia | Dati [Open Re.G.I.O](https://www.openregio.it/)| [Dati Confiscati Bene](http://www.confiscatibene.it/it/dataset) |
+| [Confiscati Bene](https://www.confiscatibene.it/openregio/immobilidestinati) | I beni confiscati in Italia | Dati [Open Re.G.I.O](https://www.openregio.it/)| [Dati Confiscati Bene](http://www.confiscatibene.it/it/dataset) |
 | [Monithon](http://www.monithon.it) | Monithon è un’iniziativa indipendente di monitoraggio civico. La comunità di Monithon è aperta a tutti coloro che vogliono conoscere e valutare sul campo come vengono spesi i fondi pubblici in Italia. OpenCoesione ci aiuta ad individuare dove sono i finanziamenti per organizzare le nostre ricerche. | Dati da [OPENCOESIONE](https://opencoesione.gov.it) | |
 | [OpenBilanci](https://openbilanci.it) | I bilanci di tutti i comuni italiani | Dati da [ Direzione Centrale della Finanza Locale](https://finanzalocale.interno.gov.it/banchedati.html) | |
 | [Open Dormire](https://www.fabiodisconzi.com/open-dormire/index.html) | Gli opendata a servizio del turismo: trova un alloggio. | Varie fonti Open Gov Data | |
