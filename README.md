@@ -81,6 +81,8 @@ In questo tema rientra tutto ciò che concerne le attività sulla salute e tutto
 
 * [Agenzia Italiana del Farmaco (AIFA)](http://www.aifa.gov.it/content/open-data): diversi dataset con info sui farmaci
 
+* [Vaccini anti COVID-19](https://github.com/italia/covid19-opendata-vaccini): il repository contiene i dati in formato aperto relativi ai vaccini anti COVID-19
+
 ### Tematiche internazionali
 
 In questo tema rientra tutto ciò che concerne le relazioni internazionali, la cooperazione internazionale, i diritti umanitari, le organizzazioni internazionali e gli affari esteri.
