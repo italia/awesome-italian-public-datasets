@@ -3,7 +3,7 @@ Una selezione di alcuni dataset in formato aperto forniti dalla Pubblica Amminis
 
 Vuoi Contribuire?
 
-Leggi come [contribuire con una segnalazione](https://github.com/mariaclaudia/AwesomeItalianPublicData/blob/master/Contributing.md) a migliorare Awesome Italian Public Datasets.
+Leggi come [contribuire con una segnalazione](Contributing.md) a migliorare Awesome Italian Public Datasets.
 
 ## Table of contents:
 
