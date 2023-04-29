@@ -79,7 +79,7 @@ In questo tema rientra tutto ciò che concerne le attività sulla salute e tutto
 
 * [Dispositivi Medici](http://www.dati.salute.gov.it/dati/dettaglioDataset.jsp?menu=dati&idPag=1): Elenco aggiornato con cadenza settimanale dei dispositivi medici registrati presso la banca dati e il Repertorio del Ministero della Salute.
 
-* [Agenzia Italiana del Farmaco (AIFA)](http://www.aifa.gov.it/content/open-data): diversi dataset con info sui farmaci
+* [Agenzia Italiana del Farmaco (AIFA)](https://www.aifa.gov.it/web/guest/open-data): diversi dataset con info sui farmaci
 
 * [Vaccini anti COVID-19](https://github.com/italia/covid19-opendata-vaccini): il repository contiene i dati in formato aperto relativi ai vaccini anti COVID-19
 
