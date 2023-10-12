@@ -117,11 +117,11 @@ In questo tema rientra tutto ciò che riguarda la ricerca, l’innovazione, la t
 
 * [ACI - Automobile Club d'Italia](http://www.aci.it/laci/studi-e-ricerche/dati-e-statistiche.html): pubblicazioni statistiche relative al fenomeno della motorizzazione nel suo complesso: parco veicoli e tendenze di mercato, incidentalità; archivio annuari sulla circolazione e le tendenze del mercato.
 
-* [Carburanti - Prezzi praticati e anagrafica degli impianti](http://www.sviluppoeconomico.gov.it/index.php/it/open-data/elenco-dataset/2032336-carburanti-prezzi-praticati-e-anagrafica-degli-impianti): I dataset, scaricabili in questa sezione in forma attualmente sperimentale, contengono le informazioni relative agli impianti e ai prezzi praticati dei carburanti.
+* [Carburanti - Prezzi praticati e anagrafica degli impianti](https://www.mimit.gov.it/it/open-data/elenco-dataset/carburanti-prezzi-praticati-e-anagrafica-degli-impianti): I dataset, scaricabili in questa sezione in forma attualmente sperimentale, contengono le informazioni relative agli impianti e ai prezzi praticati dei carburanti.
 
 * [Patenti di Guida](http://dati.mit.gov.it/catalog/dataset/patenti): Il dataset contiene l'elenco delle patenti di guida attive, ossia delle autorizzazioni amministrative alla guida di autoveicoli e motoveicoli, provenienti dall'archivio nazionale abilitati alla guida su strada gestito dalla Motorizzazione.
 
-* [Parco Circolante dei veicoli](http://dati.mit.gov.it/catalog/dataset/parco-circolante-dei-veicoli): Parco circolante dei veicoli su strada ( categorie Autoveicoli e Motoveicoli ) diviso per regione estratto dall'archivio nazionale dei veicoli gestito dalla Motorizzazione.
+* [Parco Circolante dei veicoli](https://dati.mit.gov.it/catalog/dataset/dataset-parco-circolante-dei-veicoli): Parco circolante dei veicoli su strada ( categorie Autoveicoli e Motoveicoli ) diviso per regione estratto dall'archivio nazionale dei veicoli gestito dalla Motorizzazione.
 
 
 ### Governo e settore pubblico
@@ -129,13 +129,9 @@ In questo tema rientra tutto ciò che riguarda le politiche di governo, gli affa
 
 * [Agenzia Demanio](https://dati.agenziademanio.it/#/opendata): Banca dati degli immobili di proprietà statale. 
 
-* [Cantieri Scuole](http://www.cantieriscuole.it/open_data.aspx): Fonti dei principali dataset impiegati per la costruzione ed il funzionamento dell'applicazione CantieriScuole.it di #italiasicura.scuole.
-
 * [Banca dati Servizio Contratti Pubblici - SCP - Ministero trasporti](http://dati.mit.gov.it/catalog/dataset/scp): Il Dataset contiene gli avvisi, i bandi e gli esiti di gara in formato aperto raccolti dalla Banca dati SCP - Servizio Contratti Pubblici gestita dalla Direzione Generale per la regolazione e i contratti pubblici del Ministero delle Infrastrutture e Trasporti. 
 
 * [Catasto rifiuti](http://www.catasto-rifiuti.isprambiente.it): Il Centro Nazionale per il ciclo dei rifiuti di ISPRA effettua annualmente il monitoraggio dei costi sostenuti dai comuni per la gestione dei rifiuti urbani e assimilati. Tali dati sono pubblicati nel Rapporto annuale sui Rifiuti Urbani.
-
-* [MISE: Aiuti di Stato](http://www.sviluppoeconomico.gov.it/index.php/it/open-data/elenco-dataset)
 
 * [OPENBDAP](https://bdap-opendata.mef.gov.it/catalog): Il portale della RGS che mette a disposizione i dati della Finanza Pubblica.
 
@@ -151,15 +147,13 @@ Per ulteriori informazioni sulla strategia nazionale di open data consulta il po
 * [#ItaliaSicura](http://www.cantieriscuole.it/webgis.aspx): Presidenza del Consiglio dei Ministri
 Struttura di missione per il coordinamento e l'impulso nell'attuazione degli interventi di riqualificazione dell'edilizia scolastica.
 
-* [OPENCANTIERI](http://opencantieri.mit.gov.it/): A che punto di realizzazione è un’opera pubblica. Per quale importo è stata finanziata, quanto sta effettivamente costando, se e perché ritarda, quanti giorni di lavoro vi sono stati effettivamente dedicati.
+* [Osservacantieri](https://osservacantieri.mit.gov.it/): A che punto di realizzazione è un’opera pubblica. Per quale importo è stata finanziata, quanto sta effettivamente costando, se e perché ritarda, quanti giorni di lavoro vi sono stati effettivamente dedicati.
 
-* [OPENCIVITAS](https://www.opencivitas.it): Il Portale di accesso alle informazioni degli Enti Locali, un’iniziativa di trasparenza promossa dal Dipartimento delle Finanze e dalla SOSE. Conosci, confronta, valuta gli Enti Locali.
+* [OPENCIVITAS](https://www.opencivitas.it/open-data): Il Portale di accesso alle informazioni degli Enti Locali, un’iniziativa di trasparenza promossa dal Dipartimento delle Finanze e dalla SOSE. Conosci, confronta, valuta gli Enti Locali.
 
-* [OPENCUP](http://opencup.gov.it/it/opendata): Open CUP mette a disposizione di tutti - cittadini, istituzioni ed altri enti - i dati, in formato aperto, sulle decisioni di investimento pubblico finanziate con fondi pubblici nazionali, comunitari o regionali o con risorse private registrate con il Codice Unico di Progetto. 
+* [OPENCUP](https://www.opencup.gov.it/portale/web/opencup/opendata): Open CUP mette a disposizione di tutti - cittadini, istituzioni ed altri enti - i dati, in formato aperto, sulle decisioni di investimento pubblico finanziate con fondi pubblici nazionali, comunitari o regionali o con risorse private registrate con il Codice Unico di Progetto. 
 
-* [Open RE.G.I.O](https://openregio.it): Agenzia Nazionale per l'amministrazione e la destinazione dei beni sequestrati e confiscati alla criminalità organizzata.
-
-* [OPENTRASPORTI](http://opentransport.mit.gov.it/): Una piattaforma per la raccolta dati e l’offerta di servizi digitali a supporto del trasporto, abilitando la filiera co-modale integrata dalla pianificazione del viaggio fino alle destinazioni finali, con una ricaduta positiva non solo nel settore dei trasporti, ma anche sul sistema Italia nel suo complesso (turismo, cultura, servizi diversi). L’obiettivo è quello di creare un hub nazionale dei dati dell’infomobilità per lo sviluppo di  servizi avanzati al viaggiatore.
+* [Open RE.G.I.O](https://openregio.anbsc.it): Agenzia Nazionale per l'amministrazione e la destinazione dei beni sequestrati e confiscati alla criminalità organizzata.
 
 * [OPENDEMANIO](https://dati.agenziademanio.it): Iniziativa di open government sulle informazioni gestite dall’Agenzia del Demanio.
 
