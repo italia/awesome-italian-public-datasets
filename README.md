@@ -52,7 +52,6 @@ In questo tema rientra tutto ciò che riguarda la cultura, il turismo, l’istru
   * [Scuola Secondaria](http://ustat.miur.it/)
   * [Ambito PON](http://dati.istruzione.it/opendata/opendata/catalogo/#PON) 
 
-
 ### Energia 
 In questo tema rientra tutto ciò che concerne il settore dell’energia e dell’estrazione mineraria.
 
