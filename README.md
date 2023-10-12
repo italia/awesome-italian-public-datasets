@@ -61,7 +61,6 @@ In questo tema rientra tutto ciò che concerne il settore dell’energia e dell�
   * Offerte mercato libero
   * Dati identificativi e di contatto dei venditori
 
-
 ### Ambiente
 
 In questo tema rientra tutto ciò che riguarda l’ambiente (rifiuti, consumo del suolo, oceani, ecc.) e il clima/meteo.
