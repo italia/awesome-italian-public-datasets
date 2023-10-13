@@ -1,26 +1,26 @@
-name: Check README Links
-
 on:
   push:
     branches:
-      - Controllo_automtico_dei_link_rotti
+      - Controllo_automatico_dei_link_rotti
 
+name: Broken Link Check
 jobs:
-  check-links:
+  check:
+    name: Broken Link Check
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: 14
+      - name: Broken Link Check
+        id: broken-links
+        uses: technote-space/broken-link-checker-action@v2
 
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run link checker
-        run: node link-checker.js
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create Issue for Broken Links
+        if: steps.broken-links.outputs.broken_links > 0
+        run: |
+          echo "Creating issue for broken links..."
+          curl -X POST -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          https://api.github.com/repos/${{ github.repository }}/issues \
+          -d '{"title":"Broken Links Detected","body":"The following broken links were detected:\n\n'$(cat broken-links.txt)'"}'
