@@ -1,6 +1,7 @@
 const markdownLinkCheck = require('markdown-link-check');
 const fetch = require('node-fetch');
 
+
 markdownLinkCheck({
     files: ['./README.md'],
     // Alcune opzioni, come eventuali URL da ignorare, possono essere specificate qui
