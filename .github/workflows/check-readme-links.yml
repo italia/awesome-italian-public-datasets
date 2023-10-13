@@ -3,7 +3,7 @@ name: Check README Links
 on:
   push:
     branches:
-      - main
+      - Controllo_automtico_dei_link_rotti
 
 jobs:
   check-links:
