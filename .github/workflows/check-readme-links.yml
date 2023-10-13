@@ -16,7 +16,7 @@ jobs:
         run: npm install markdown-link-check -g
 
       - name: Run link checker
-        run: markdown-link-check README.md --config .link-check-config.json
+        run: markdown-link-check README.md
         continue-on-error: true
 
       - name: Create Issue for Broken Links
@@ -25,5 +25,5 @@ jobs:
           echo "Creating issue for broken links..."
           curl -X POST -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github.v3+json" \
-          https://api.github.com/repos/${{ github.repository }}/issues \
+          https://api.github.com/repos/$GITHUB_REPOSITORY/issues \
           -d '{"title":"Broken Links Detected","body":"The following broken links were detected in README.md:\n\n'$(cat broken-links.txt)'"}'
