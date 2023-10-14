@@ -17,7 +17,8 @@ jobs:
     steps:
     - name: Show current directory
       run: pwd
-
+    - name: List files in the repository
+      run: ls -la
     - name: Get links from README.md
       id: get-links
       run: |
