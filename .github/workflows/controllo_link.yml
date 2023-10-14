@@ -18,7 +18,7 @@ jobs:
     - name: Get links from README.md
       id: get-links
       run: |
-       LINKS=$(grep -oP '\[(.*?)\]\((.*?)\)' ./README.md | sed -E 's/\[.*\]\(([^)]+)\)/\1/' | paste -sd "," -)
+       LINKS=$(grep -oP '\[.*?\]\((http[s]?://[^)]*)\)' README.md | sed -E 's/\[.*\]\(([^)]+)\)/\1/' | paste -sd "," -)
        echo "WEBSITE_URL=$LINKS" >> $GITHUB_ENV
       
     - name: Run Broken Links Checker
