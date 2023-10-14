@@ -22,7 +22,9 @@ jobs:
        echo "WEBSITE_URL=$LINKS" >> $GITHUB_ENV
       
     - name: Run Broken Links Checker
-      run: npx broken-link-checker $WEBSITE_URL --ordered --recursive
+      run: | 
+       BROKEN_LINKS=$(npx broken-link-checker $WEBSITE_URL --ordered --recursive --filter-level error | awk '/BROKEN/ {print $4}')
+       echo "BROKEN_LINKS=$BROKEN_LINKS" >> $GITHUB_ENV
 
     - uses: actions/checkout@v3
       if: failure()
