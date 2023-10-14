@@ -4,7 +4,6 @@ on:
     branches:
       - Controllo_automatico_dei_link_rotti
 env:
-  README_PATH: "README.md"
   ISSUE_TEMPLATE: ".github/workflows/ISSUE_TEMPLATE.md"
  
   contents: read
@@ -15,18 +14,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Show current directory
-      run: pwd
-
+    - uses: actions/checkout@v3
     - name: Get links from README.md
       id: get-links
       run: |
-       LINKS=$(grep -oP '\[(.*?)\]\((.*?)\)' ./README.md | sed -E 's/\[.*\]\(([^)]+)\)/\1/' | paste -sd "," -)
+       LINKS=$(grep -oP '\[.*?\]\((http[s]?://[^)]*)\)' README.md | sed -E 's/\[.*\]\(([^)]+)\)/\1/' | paste -sd "," -)
        echo "WEBSITE_URL=$LINKS" >> $GITHUB_ENV
       
-    
     - name: Run Broken Links Checker
-      run: npx broken-link-checker $WEBSITE_URL --ordered --recursive
+      run: |
+        BROKEN_LINKS=$(npx broken-link-checker@latest $WEBSITE_URL --ordered --recursive --filter-level error)
+        echo "BROKEN_LINKS=$BROKEN_LINKS" >> $GITHUB_ENV
+        echo "Broken links found: $BROKEN_LINKS"
+        if [ -n "$BROKEN_LINKS" ]; then
+          echo "Broken links found, failing the workflow"
+          exit 1
+        fi
+  
 
     - uses: actions/checkout@v3
       if: failure()
