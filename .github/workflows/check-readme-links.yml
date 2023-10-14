@@ -11,10 +11,43 @@ env:
   issues: write 
   
 jobs:
-  build:
-    name: Check if README.md links workds
+  check:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: LeandroLS/linksnitch@main  
+    - name: Show current directory
+      run: pwd
+    - name: Find README.md in the repository
+      run: |
+       find ${{ github.workspace }} -name "README.md"
+
+         
+    - name: Find README.md in the repository
+      run: |
+        README_PATH=$(find $GITHUB_WORKSPACE -name "README.md")
+        if [ -z "$README_PATH" ]; then
+        echo "README.md not found in the repository."
+        exit 1
+        fi
+        echo "README_PATH=$README_PATH" >> $GITHUB_ENV
+   
+    - name: Get links from README.md
+      id: get-links
+      run: |
+       LINKS=$(grep -oP '\[(.*?)\]\((.*?)\)' ./README.md | sed -E 's/\[.*\]\(([^)]+)\)/\1/' | paste -sd "," -)
+       echo "WEBSITE_URL=$LINKS" >> $GITHUB_ENV
+      
+    
+    - name: Run Broken Links Checker
+      run: npx broken-link-checker $WEBSITE_URL --ordered --recursive
+
+    - uses: actions/checkout@v3
+      if: failure()
+
+    - uses: JasonEtco/create-an-issue@v2
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        filename: ${{ env.ISSUE_TEMPLATE }}
+      if: failure()
 
