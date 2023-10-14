@@ -25,11 +25,13 @@ jobs:
       run: |
         BROKEN_LINKS=$(npx broken-link-checker@latest $WEBSITE_URL --ordered --recursive --filter-level error)
         echo "BROKEN_LINKS=$BROKEN_LINKS" >> $GITHUB_ENV
-        echo "Broken Links: $BROKEN_LINKS"
         if [ -n "$BROKEN_LINKS" ]; then
           echo "Broken links found, failing the workflow"
           exit 1
         fi
+    - name: Print Broken Links
+      run: |
+        echo "Broken Links: $BROKEN_LINKS"
 
     - uses: actions/checkout@v3
       if: failure()
