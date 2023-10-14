@@ -162,14 +162,14 @@ Struttura di missione per il coordinamento e l'impulso nell'attuazione degli int
 
 ## Civic Data Use Cases <a name="CivicDatausecases"></a> 
 
-| Progetto civico                                                                             | Descrizione | Dati aperti usati | Dati aperti creati |
-|---------------------------------------------------------------------------------------------| ------------- | ----------------| ------------- |  
-| [Confiscati Bene](https://www.c2438k43c2j417471kc6j1ckcjjfh.it/openregio/immobilidestinati) | I beni confiscati in Italia | Dati [Open Re.G.I.O](https://www.openregio.it/)| [Dati Confiscati Bene](http://www.confiscatibene.it/it/dataset) |
-| [Monithon](http://www.monithon.it)                                                          | Monithon è un’iniziativa indipendente di monitoraggio civico. La comunità di Monithon è aperta a tutti coloro che vogliono conoscere e valutare sul campo come vengono spesi i fondi pubblici in Italia. OpenCoesione ci aiuta ad individuare dove sono i finanziamenti per organizzare le nostre ricerche. | Dati da [OPENCOESIONE](https://opencoesione.gov.it) | |
-| [OpenBilanci](https://openbilanci.it)                                                       | I bilanci di tutti i comuni italiani | Dati da [ Direzione Centrale della Finanza Locale](https://finanzalocale.interno.gov.it/banchedati.html) | |
-| [Open Dormire](https://www.fabiodisconzi.com/open-dormire/index.html)                       | Gli opendata a servizio del turismo: trova un alloggio. | Varie fonti Open Gov Data | |
-| [OpenParlamento](https://parlamento18.openpolis.it)                                         | Informati, monitorati e intervieni neil lavori del Parlamento Italiano. | Dati dai [siti Camera e Senato](https://parlamento18.openpolis.it/faq#8) | |
-| [Terremoto Centro Italia](https://terremotocentroitalia.info/about/)                        | progetto nato per condividere informazioni utili e verificate sugli eventi sismici che hanno coinvolto il centro Italia durante il 2016 e il 2017 | [OSM, Mapillary, Flickr - Open Community Data](https://github.com/emergenzeHack/terremotocentro/wiki/001-Come-%C3%A8-fatto-TerremotoCentroItalia) | [Open Community Data](https://terremotocentroitalia.info/opendata/) |
+| Progetto civico                                                                            | Descrizione | Dati aperti usati | Dati aperti creati |
+|--------------------------------------------------------------------------------------------| ------------- | ----------------| ------------- |  
+| [Confiscati Bene](https://www.c2438k43c2j417471kc6j1ckcjjf.it/openregio/immobilidestinati) | I beni confiscati in Italia | Dati [Open Re.G.I.O](https://www.openregio.it/)| [Dati Confiscati Bene](http://www.confiscatibene.it/it/dataset) |
+| [Monithon](http://www.monithon.it)                                                         | Monithon è un’iniziativa indipendente di monitoraggio civico. La comunità di Monithon è aperta a tutti coloro che vogliono conoscere e valutare sul campo come vengono spesi i fondi pubblici in Italia. OpenCoesione ci aiuta ad individuare dove sono i finanziamenti per organizzare le nostre ricerche. | Dati da [OPENCOESIONE](https://opencoesione.gov.it) | |
+| [OpenBilanci](https://openbilanci.it)                                                      | I bilanci di tutti i comuni italiani | Dati da [ Direzione Centrale della Finanza Locale](https://finanzalocale.interno.gov.it/banchedati.html) | |
+| [Open Dormire](https://www.fabiodisconzi.com/open-dormire/index.html)                      | Gli opendata a servizio del turismo: trova un alloggio. | Varie fonti Open Gov Data | |
+| [OpenParlamento](https://parlamento18.openpolis.it)                                        | Informati, monitorati e intervieni neil lavori del Parlamento Italiano. | Dati dai [siti Camera e Senato](https://parlamento18.openpolis.it/faq#8) | |
+| [Terremoto Centro Italia](https://terremotocentroitalia.info/about/)                       | progetto nato per condividere informazioni utili e verificate sugli eventi sismici che hanno coinvolto il centro Italia durante il 2016 e il 2017 | [OSM, Mapillary, Flickr - Open Community Data](https://github.com/emergenzeHack/terremotocentro/wiki/001-Come-%C3%A8-fatto-TerremotoCentroItalia) | [Open Community Data](https://terremotocentroitalia.info/opendata/) |
 
 
 
