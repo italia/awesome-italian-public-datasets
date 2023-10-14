@@ -23,7 +23,7 @@ jobs:
       run: |
        LINKS=$(grep -oP '\[(.*?)\]\((.*?)\)' README.md | sed -E 's/\[.*\]\(([^)]+)\)/\1/' | paste -sd "," -)
        echo "WEBSITE_URL=$LINKS" >> $GITHUB_ENV
-      working-directory: awesome-italian-public-datasets/README.md
+      working-directory: ../README.md
     
     - name: Run Broken Links Checker
       run: npx broken-link-checker $WEBSITE_URL --ordered --recursive
