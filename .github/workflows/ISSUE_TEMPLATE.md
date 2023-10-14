@@ -6,7 +6,7 @@ assignees: ''
 
 ## Website Contains Broken Links
 
-Broken Link Checker found :coffin: links on  [{{ env.WEBSITE_URL }}]
+Broken Link Checker found :coffin: links on  [{{ env.BROKEN_LINK }}]
 
 [View Results](https://github.com/alt3/Docusaurus.Powershell/commit/{{sha}}/checks)
 
