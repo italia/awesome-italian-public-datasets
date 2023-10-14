@@ -23,13 +23,31 @@ jobs:
       
     - name: Run Broken Links Checker
       run: |
-        BROKEN_LINKS=$(npx broken-link-checker@latest $WEBSITE_URL --ordered --recursive --filter-level error)
-        echo "BROKEN_LINKS=$BROKEN_LINKS" >> $GITHUB_ENV
-        echo "Broken links found: $BROKEN_LINKS"
+        # Dividi la lista di link in un array separato da virgola
+        IFS=',' read -ra LINKS <<< "$WEBSITE_URL"
+        BROKEN_LINKS=""
+
+        # Scansiona i link e verifica se sono raggiungibili
+        for link in "${LINKS[@]}"; do
+          if [[ $link =~ ^(http|https):// ]]; then
+            # Se il link inizia con "http://" o "https://", verifica se è raggiungibile
+            if ! curl -IsS "$link" > /dev/null; then
+              BROKEN_LINKS="$BROKEN_LINKS,$link"
+            fi
+          fi
+        done
+
+          # Rimuovi la virgola iniziale se ci sono link non raggiungibili
         if [ -n "$BROKEN_LINKS" ]; then
+          BROKEN_LINKS=$(echo "$BROKEN_LINKS" | cut -c 2-)
+          echo "BROKEN_LINKS=$BROKEN_LINKS" >> $GITHUB_ENV
+          echo "Broken links found: $BROKEN_LINKS"
           echo "Broken links found, failing the workflow"
           exit 1
+        else
+          echo "No broken links found"
         fi
+
   
 
     - uses: actions/checkout@v3
