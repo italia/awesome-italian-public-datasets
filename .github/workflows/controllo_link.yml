@@ -2,9 +2,8 @@ name: Broken Links Checker
 on:
   push:
     branches:
-      - controllo_link
+      - Controllo_automatico_dei_link_rotti
 env:
-  README_PATH: "README.md"
   ISSUE_TEMPLATE: ".github/workflows/ISSUE_TEMPLATE.md"
  
   contents: read
@@ -16,29 +15,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Show current directory
-      run: pwd
-    - name: Find README.md in the repository
-      run: |
-       find ${{ github.workspace }} -name "README.md"
-
-         
-    - name: Find README.md in the repository
-      run: |
-        README_PATH=$(find $GITHUB_WORKSPACE -name "README.md")
-        if [ -z "$README_PATH" ]; then
-        echo "README.md not found in the repository."
-        exit 1
-        fi
-        echo "README_PATH=$README_PATH" >> $GITHUB_ENV
-   
     - name: Get links from README.md
       id: get-links
       run: |
        LINKS=$(grep -oP '\[(.*?)\]\((.*?)\)' ./README.md | sed -E 's/\[.*\]\(([^)]+)\)/\1/' | paste -sd "," -)
        echo "WEBSITE_URL=$LINKS" >> $GITHUB_ENV
       
-    
     - name: Run Broken Links Checker
       run: npx broken-link-checker $WEBSITE_URL --ordered --recursive
 
