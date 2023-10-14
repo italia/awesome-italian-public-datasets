@@ -2,7 +2,7 @@ name: Broken Links Checker
 on:
   push:
     branches:
-      - Controllo_automatico_dei_link_rotti
+      - master
 env:
   ISSUE_TEMPLATE: ".github/workflows/ISSUE_TEMPLATE.md"
  
