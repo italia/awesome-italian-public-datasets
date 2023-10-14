@@ -17,8 +17,10 @@ jobs:
     steps:
     - name: Show current directory
       run: pwd
-    - name: List files in the repository
-      run: ls -la
+    - name: List file in the repository
+      run: |
+        ls ${{ github.workspace }}
+         
     - name: Find README.md in the repository
       run: |
         README_PATH=$(find $GITHUB_WORKSPACE -name "README.md")
@@ -27,10 +29,7 @@ jobs:
         exit 1
         fi
         echo "README_PATH=$README_PATH" >> $GITHUB_ENV
-    - name: List files in the repository
-      run: |
-        ls ${{ github.workspace }}
-         
+   
     - name: Get links from README.md
       id: get-links
       run: |
