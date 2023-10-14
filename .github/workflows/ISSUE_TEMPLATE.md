@@ -6,7 +6,7 @@ assignees: ''
 
 ## Website Contains Broken Links
 
-Broken Link Checker found :coffin: links on https://docusaurus-powershell.netlify.com/
+Broken Link Checker found :coffin: links on  $WEBSITE_URL
 
 [View Results](https://github.com/alt3/Docusaurus.Powershell/commit/{{sha}}/checks)
 
