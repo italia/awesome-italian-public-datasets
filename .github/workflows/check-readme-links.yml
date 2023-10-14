@@ -17,9 +17,10 @@ jobs:
     steps:
     - name: Show current directory
       run: pwd
-    - name: List file in the repository
+    - name: Find README.md in the repository
       run: |
-        ls ${{ github.workspace }}
+       find ${{ github.workspace }} -name "README.md"
+
          
     - name: Find README.md in the repository
       run: |
