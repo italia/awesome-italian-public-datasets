@@ -31,7 +31,7 @@ jobs:
         for link in "${LINKS[@]}"; do
           if [[ $link =~ ^(http|https):// ]]; then
             # Se il link inizia con "http://" o "https://", verifica se è raggiungibile
-            if ! curl -IsS "$link" > /dev/null; then
+            if ! curl -IsSk "$link" > /dev/null; then
               BROKEN_LINKS="$BROKEN_LINKS,$link"
             fi
           fi
