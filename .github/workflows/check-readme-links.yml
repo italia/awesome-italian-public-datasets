@@ -5,7 +5,7 @@ on:
       - Controllo_automatico_dei_link_rotti
 env:
   WEBSITE_URL: "https://docusaurus-powershell.netlify.com/"
-  ISSUE_TEMPLATE: ".github/workflows/check-readme-links.yml"
+  ISSUE_TEMPLATE: ".github/workflows/ISSUE_TEMPLATE.md"
   
 permissions:
   contents: read
