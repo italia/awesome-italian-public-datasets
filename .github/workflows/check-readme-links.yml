@@ -17,7 +17,7 @@ jobs:
     steps:
     - name: Get links from README.md
       id: get-links
-      working-directory: README.md
+      working-directory: awesome-italian-public-datasets
       run: 
         LINKS=$(grep -oP '\[(.*?)\]\((.*?)\)' README.md | sed -E 's/\[.*\]\(([^)]+)\)/\1/' | paste -sd "," -)
         echo "WEBSITE_URL=$LINKS" >> $GITHUB_ENV
