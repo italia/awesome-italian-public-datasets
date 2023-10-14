@@ -4,6 +4,7 @@ on:
     branches:
       - Controllo_automatico_dei_link_rotti
 env:
+  README_PATH: "README.md"
   ISSUE_TEMPLATE: ".github/workflows/ISSUE_TEMPLATE.md"
   
 permissions:
@@ -17,9 +18,8 @@ jobs:
     steps:
     - name: Get links from README.md
       id: get-links
-      working-directory: awesome-italian-public-datasets
       run: 
-        LINKS=$(grep -oP '\[(.*?)\]\((.*?)\)' README.md | sed -E 's/\[.*\]\(([^)]+)\)/\1/' | paste -sd "," -)
+        LINKS=$(grep -oP '\[(.*?)\]\((.*?)\)' $README_PATH | sed -E 's/\[.*\]\(([^)]+)\)/\1/' | paste -sd "," -)
         echo "WEBSITE_URL=$LINKS" >> $GITHUB_ENV
     - name: Run Broken Links Checker
       run: npx broken-link-checker $WEBSITE_URL --ordered --recursive
