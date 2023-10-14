@@ -19,6 +19,15 @@ jobs:
       run: pwd
     - name: List files in the repository
       run: ls -la
+    - name: Find README.md in the repository
+      run: |
+        README_PATH=$(find . -name "README.md")
+        if [ -n "$README_PATH" ]; then
+          echo "Found README.md at $README_PATH"
+        else
+          echo "README.md not found in the repository."
+        fi
+  
     - name: Get links from README.md
       id: get-links
       run: |
