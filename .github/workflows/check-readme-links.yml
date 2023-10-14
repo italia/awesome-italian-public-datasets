@@ -1,29 +1,25 @@
-name: Check README Links
-
 on:
   push:
     branches:
-      - Controllo_automatico_dei_link_rotti
+      - Controllo_automatico_dei_link_rotti # Sostituisci con il nome del tuo branch principale
+  # schedule:
+  #   - cron: 0 0 1 * * # esegui mensilmente
+  # repository_dispatch: # esegui manualmente
+  #   types: [check-link]
 
+name: Verifica Link Rotti nel README al Push
 jobs:
-  check-links:
+  check:
+    name: Verifica Link Rotti nel README
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Install dependencies
-        run: npm install markdown-link-check -g
-
-      - name: Run link checker
-        run: markdown-link-check README.md
-        continue-on-error: true
-
-      - name: Create Issue for Broken Links
-        if: failure()
-        run: |
-          echo "Creating issue for broken links..."
-          curl -X POST -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-          -H "Accept: application/vnd.github.v3+json" \
-          https://api.github.com/repos/$GITHUB_REPOSITORY/issues \
-          -d '{"title":"Broken Links Detected","body":"The following broken links were detected in README.md:\n\n'$(cat broken-links.txt)'"}'
+      - name: Verifica Link Rotti nel README
+        uses: technote-space/broken-link-checker-action@v2
+        with:
+          TARGET: ./README.md  # Imposta il percorso del tuo file README
+          RECURSIVE: true # Specifica se vuoi verificare i link in modo ricorsivo (true/false)
+          TITLE: "Link Rotto Trovato (${URL})" # Personalizza il titolo del problema aperto per i link rotti
+          BODY: "Sembra che ci siano problemi con il link: ${URL}. Per favore, verifica." # Personalizza il corpo del problema aperto per i link rotti
+          LABELS: "bug, broken-link" # Etichette da aggiungere al problema aperto per i link rotti (se vuoto, puoi lasciarlo vuoto)
+          ASSIGNEES: "username" # Assegna il problema a specifici utenti GitHub (se vuoto, puoi lasciarlo vuoto)
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }} # Fornisci un token di accesso per l'azione (assicurati di averlo configurato come segreto nelle impostazioni del repository)
