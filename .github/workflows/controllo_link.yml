@@ -21,15 +21,23 @@ jobs:
        LINKS=$(grep -oP '\[.*?\]\((http[s]?://[^)]*)\)' README.md | sed -E 's/\[.*\]\(([^)]+)\)/\1/' | paste -sd "," -)
        echo "WEBSITE_URL=$LINKS" >> $GITHUB_ENV
       
-    - name: Run Broken Links Checker
+    - name: Check Broken Links
       run: |
-        BROKEN_LINKS=$(npx broken-link-checker@latest $WEBSITE_URL --ordered --recursive --filter-level error)
+        BROKEN_LINKS=""
+        while IFS= read -r line; do
+        status=$(curl -o /dev/null -s -w "%{http_code}" "$line")
+        if [ "$status" -ge 400 ]; then
+         echo "Broken link found: $line"
+         BROKEN_LINKS="$BROKEN_LINKS$line "
+        fi
+        done < <(grep -oP '\[(.*?)\]\((http[s]?://.*?)\)' README.md | sed -E 's/\[.*\]\((http[s]?://.*?)\)/\1/')
         echo "BROKEN_LINKS=$BROKEN_LINKS" >> $GITHUB_ENV
         echo "Broken links found: $BROKEN_LINKS"
         if [ -n "$BROKEN_LINKS" ]; then
           echo "Broken links found, failing the workflow"
           exit 1
         fi
+
   
 
     - uses: actions/checkout@v3
