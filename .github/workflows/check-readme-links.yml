@@ -4,7 +4,6 @@ on:
     branches:
       - Controllo_automatico_dei_link_rotti
 env:
-  WEBSITE_URL: "https://docusaurus-powershell.netlify.com/"
   ISSUE_TEMPLATE: ".github/workflows/ISSUE_TEMPLATE.md"
   
 permissions:
@@ -16,6 +15,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Get links from README.md
+      id: get-links
+      run: |
+        LINKS=$(grep -oP '\[(.*?)\]\((.*?)\)' README.md | sed -E 's/\[.*\]\(([^)]+)\)/\1/' | paste -sd "," -)
+        echo "WEBSITE_URL=$LINKS" >> $GITHUB_ENV
     - name: Run Broken Links Checker
       run: npx broken-link-checker $WEBSITE_URL --ordered --recursive
 
