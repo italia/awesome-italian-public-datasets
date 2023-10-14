@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@latest
     - name: Get links from README.md
       id: get-links
       run: |
@@ -23,13 +23,13 @@ jobs:
       
     - name: Run Broken Links Checker
       run: | 
-       BROKEN_LINKS=$(npx broken-link-checker $WEBSITE_URL --ordered --recursive --filter-level error | awk '/BROKEN/ {print $4}')
+       BROKEN_LINKS=$(npx broken-link-checker@latest $WEBSITE_URL --ordered --recursive --filter-level error | awk '/BROKEN/ {print $4}')
        echo "BROKEN_LINKS=$BROKEN_LINKS" >> $GITHUB_ENV
 
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@latest
       if: failure()
 
-    - uses: JasonEtco/create-an-issue@v2
+    - uses: JasonEtco/create-an-issue@latest
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
