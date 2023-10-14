@@ -22,11 +22,11 @@ jobs:
     - name: Find README.md in the repository
       run: |
         README_PATH=$(find $GITHUB_WORKSPACE -name "README.md")
-        if [ -n "$README_PATH" ]; then
-          echo "Found README.md at $README_PATH"
-        else
-          echo "README.md not found in the repository."
+        if [ -z "$README_PATH" ]; then
+        echo "README.md not found in the repository."
+        exit 1
         fi
+        echo "README_PATH=$README_PATH" >> $GITHUB_ENV
   
     - name: Get links from README.md
       id: get-links
