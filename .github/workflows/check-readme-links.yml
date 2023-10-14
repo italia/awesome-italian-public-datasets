@@ -6,8 +6,7 @@ on:
 env:
   README_PATH: "README.md"
   ISSUE_TEMPLATE: ".github/workflows/ISSUE_TEMPLATE.md"
-  
-permissions:
+ 
   contents: read
   issues: write 
   
@@ -21,9 +20,11 @@ jobs:
 
     - name: Get links from README.md
       id: get-links
-      run: 
-        LINKS=$(grep -oP '\[(.*?)\]\((.*?)\)' awesome-italian-public-datasets/README.md | sed -E 's/\[.*\]\(([^)]+)\)/\1/' | paste -sd "," -)
-        echo "WEBSITE_URL=$LINKS" >> $GITHUB_ENV
+      run: |
+       LINKS=$(grep -oP '\[(.*?)\]\((.*?)\)' README.md | sed -E 's/\[.*\]\(([^)]+)\)/\1/' | paste -sd "," -)
+       echo "WEBSITE_URL=$LINKS" >> $GITHUB_ENV
+      working-directory: awesome-italian-public-datasets/README.md
+    
     - name: Run Broken Links Checker
       run: npx broken-link-checker $WEBSITE_URL --ordered --recursive
 
