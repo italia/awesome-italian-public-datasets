@@ -1,13 +1,14 @@
 ---
-title: Website Contains Broken Links
+title: Siti che contengono link rotti
 labels: housekeeping
 assignees: ''
 ---
 
-## Website Contains Broken Links
+body: | 
+  Elenco dei link problematici:
+  {% for link in env.BROKEN_LINKS.split(',') %}
+  - {{ link }}
+  {% endfor %}
 
-Broken Link Checker found :coffin: links on  [{{ env.BROKEN_LINKS }}]
 
-[View Results](https://github.com/alt3/Docusaurus.Powershell/commit/{{sha}}/checks)
 
-_Use search filter `─BROKEN─` to highlight failures_
