@@ -1,6 +1,6 @@
 ---
 title: Siti che contengono link rotti
-labels: housekeeping
+labels: broken-links
 assignees: ''
 ---
 
