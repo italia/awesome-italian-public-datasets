@@ -1,6 +1,6 @@
 ---
 title: Broken links
-labels: housekeeping
+labels: broken-links
 assignees: ''
 ---
 
