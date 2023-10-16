@@ -50,8 +50,6 @@ jobs:
           echo "No broken links found"
         fi
 
-  
-
     - uses: actions/checkout@v3
       if: failure()
 
